@@ -25,7 +25,7 @@ Bu eklenti henüz Chrome Web Store'da yayınlanmamıştır. Tarayıcınıza manu
 
 ## 📖 Kullanım
 
-1. İndirmek istediğiniz FlipHTML5 kitabını açın (Örn: `https://online.fliphtml5.com/jhbsc/fvlh/`).
+1. İndirmek istediğiniz FlipHTML5 kitabını açın.
 2. Kitabın tamamen yüklenmesini bekleyin.
 3. Tarayıcınızın sağ üst köşesindeki **Extensions (Yapboz)** menüsünden bu eklentiyi bulun ve tıklayın.
 4. Ekranın sağ üst köşesinde "PDF Hazırlanıyor..." kutucuğu belirecektir.
@@ -41,3 +41,14 @@ Hata düzeltmeleri veya yeni özellikler için Pull Request gönderebilirsiniz.
 
 ---
 **Lisans:** MIT License
+
+
+fliphtml5-pdf-extension/
+│
+├── manifest.json         (Ayar dosyası)
+├── background.js         (İkon tıklamasını dinleyen servis)
+├── content.js            (Enjeksiyonu yapan köprü)
+├── injected.js           (Sayfada çalışacak ana kod)
+├── jspdf.umd.min.js      (PDF Kütüphanesi - Bunu indireceğiz)
+├── icon.png              (Herhangi bir 128x128 png dosyası)
+└── README.md             (Github açıklaması)
