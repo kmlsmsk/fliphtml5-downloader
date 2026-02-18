@@ -43,12 +43,4 @@ Hata düzeltmeleri veya yeni özellikler için Pull Request gönderebilirsiniz.
 **Lisans:** MIT License
 
 
-##fliphtml5-pdf-extension/
-│
-├── manifest.json         (Ayar dosyası)
-├── background.js         (İkon tıklamasını dinleyen servis)
-├── content.js            (Enjeksiyonu yapan köprü)
-├── injected.js           (Sayfada çalışacak ana kod)
-├── jspdf.umd.min.js      (PDF Kütüphanesi - Bunu indireceğiz)
-├── icon.png              (Herhangi bir 128x128 png dosyası)
-└── README.md             (Github açıklaması)
+
