@@ -1,6 +1,6 @@
 /**
  * FlipHTML5 Ultimate PDF Converter (v4 - Path Fix)
- * Sorun: Çift dosya yolu ve yanlış uzantı ekleme hatası giderildi.
+ 
  */
 
 (async function () {
@@ -35,7 +35,7 @@
     console.log(`%cToplam ${totalPages} sayfa bulundu.`, "color: yellow");
 
     // 3. Temel URL'yi Belirle (Kitap Kök Dizini)
-    // Örnek: https://online.fliphtml5.com/jhbsc/fvlh/
+    
     let rootUrl = window.location.href.split('#')[0].split('?')[0];
     if (!rootUrl.endsWith('/')) rootUrl += '/';
 
