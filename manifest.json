@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "FlipHTML5 PDF Downloader",
+  "version": "2.0",
+  "description": "FlipHTML5 kitaplarını otomatik algılar ve PDF olarak indirir.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://*.fliphtml5.com/*"],
+  "action": {
+    "default_title": "PDF Olarak İndir",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["injected.js", "jspdf.umd.min.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
