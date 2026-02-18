@@ -43,7 +43,7 @@ Hata düzeltmeleri veya yeni özellikler için Pull Request gönderebilirsiniz.
 **Lisans:** MIT License
 
 
-fliphtml5-pdf-extension/
+##fliphtml5-pdf-extension/
 │
 ├── manifest.json         (Ayar dosyası)
 ├── background.js         (İkon tıklamasını dinleyen servis)
